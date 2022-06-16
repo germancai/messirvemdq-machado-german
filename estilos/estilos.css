@@ -15,7 +15,6 @@ body{
 }
 
 /*----header----*/
-
 .titulo{
     display: flex;
     justify-content: flex-start;
@@ -45,7 +44,6 @@ body{
 
 
 /*----nav----*/
-
 .menu{   
     width: 100%;           
 }
@@ -74,7 +72,6 @@ body{
 
 
 /*-----------section-saludo-------------*/
-
 .presentacion{
     text-align: center; 
     padding: 5px;   
@@ -97,7 +94,6 @@ body{
 }
 
 /*-----------aside-----------*/
-
 .paginas{  
     display: flex;
     justify-content: space-between;
@@ -109,19 +105,15 @@ body{
 }
 
 /*----main-nosotros----*/
-
-
 .nos{
     display: flex; 
     align-items: center;   
 }
-
 .nos div h2{
     font-size: 3rem;
     font-style: bold;
     text-decoration: underline;
     text-align: center;
-  
 }
 .nos div div div p{
     text-align: center;
@@ -132,6 +124,7 @@ body{
     -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
+
 @-webkit-keyframes text-focus-in {
 0% {
 -webkit-filter: blur(12px);
@@ -144,6 +137,7 @@ opacity: 0;
 opacity: 1;
 }
 }
+
 @keyframes text-focus-in {
 0% {
 -webkit-filter: blur(12px);
@@ -164,7 +158,6 @@ opacity: 1;
 }
 
 /*----main-productos----*/
-
 .productos{
     text-align: center;
     font-style: normal;   
@@ -271,22 +264,20 @@ opacity: 1;
     height: 24px;    
 }
 
-/*-----------------------tablet-----------------*/
-/*----------------------------------------------*/
+/*---------------tablet-----------------*/
+/*--------------------------------------*/
 
 @media (max-width: 1023px) {
 
- /*----header----*/   
+    /*----header----*/   
     .titulo{      
         align-items: center;
     }
     .titulo h1{
         font-size: 5rem;
         text-align: center;
-    }
-  
-
-/*-----------aside-----------*/
+    } 
+    /*-----------aside-----------*/
     .paginas{          
     align-items: center;
     }
@@ -299,35 +290,35 @@ opacity: 1;
 
 
 /*------------------medium-----------------*/
-/*----------------------------------------------*/
+/*-----------------------------------------*/
 
 
 @media (max-width: 768px){
-/*----header----*/    
+    /*----header----*/    
     .titulo h1{
         font-size: 3.5rem;
     }
-/*-----------seccion-camisetas-----------*/
+    /*-----------seccion-camisetas-----------*/
     .camisetas div img{   
         width: 80%;
         height: 85vh;
         margin: 5px 10%;   
     }
-/*----main-nosotros----*/
+    /*----main-nosotros----*/
     .nos div{
         width: 100%;
     }
     .nos div h2{
         font-size: 2rem;
     }
-/*----main-productos----*/
+    /*----main-productos----*/
     .productos div h3{
         text-align: center;
     }
     .tarjeta{
         width: 90%;   
     }
-/*----main-informacion----*/
+    /*----main-informacion----*/
     .info{   
         background:  url(https://i.pinimg.com/originals/96/fa/4d/96fa4de7a5b4b34585c0bf4ca5a8f363.jpg);
         background-position: center;
@@ -357,15 +348,12 @@ opacity: 1;
 
 /*-------------------smartphone------------------*/
 /*----------------------------------------------*/
-
-
-
 @media (max-width: 576px){
-/*----header----*/
+    /*----header----*/
     .titulo h1{
         font-size: 3rem;
     }
-/*------nav------*/
+    /*------nav------*/
     .menu{
         height: auto;
     }
@@ -377,11 +365,11 @@ opacity: 1;
         width: 100%; 
         border: solid 1px rgb(0, 162, 255);  
     }
-/*-----------seccion-camisetas-----------*/
+    /*-----------seccion-camisetas-----------*/
     .camisetas div img{   
         height: 60vh;  
     }
-/*-----footer-----*/
+    /*-----footer-----*/
     .redes li a img{
     justify-content: flex-end; 
     }
